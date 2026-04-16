@@ -15,7 +15,7 @@ public class Question07_1 {
 
 		for (int i = 0; i < itemNames.length; i++) {
 
-			System.out.println("商品名を入力してください。");
+			System.out.println(i + 1 + "つ目の商品名を入力してください。");
 
 			itemNames[i] = reader.readLine();
 		}
@@ -24,7 +24,7 @@ public class Question07_1 {
 
 		for (int i = 0; i < prices.length; i++) {
 
-			System.out.println("単価を入力してください。");
+			System.out.println(i + 1 + "つ目の商品の単価を入力してください。");
 
 			String pricesstring = reader.readLine();
 			prices[i] = Integer.parseInt(pricesstring);
@@ -32,7 +32,7 @@ public class Question07_1 {
 
 		for (int i = 0; i < 5; i++) {
 
-			System.out.println(i + "つ目の商品" + itemNames[i] + "は" + prices[i] + "円です。");
+			System.out.println(i + 1 + "つ目の商品" + itemNames[i] + "は" + prices[i] + "円です。");
 
 		}
 
